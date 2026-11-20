@@ -64,6 +64,28 @@ FinPulse AI is a full-stack, enterprise-grade financial management platform desi
 
 ---
 
+## 🧪 Comprehensive Automated Test Suites
+
+FinPulse AI includes a 100% passing automated test suite across all AI and financial calculation engines:
+
+```bash
+# Run JavaScript/React Unit & Integration Tests (Vitest)
+npm test
+
+# Run Python Unit Tests
+python -m unittest discover -s tests
+```
+
+- **5 Test Suites, 20+ Automated Tests**:
+  - `aiCategorizer.test.js`: Validates NLP categorization accuracy across diverse merchants and confidence thresholds.
+  - `anomalyEngine.test.js`: Verifies 72-hour duplicate detection, statistical outlier z-score flags, and risk scoring.
+  - `patternEngine.test.js`: Validates subscription grouping, zombie detection, and 50/30/20 breakdown.
+  - `budgetEngine.test.js`: Verifies pacing calculations, overspend warnings, dynamic envelope rebalancing, and macro runway shock tests.
+  - `aiAdvisorEngine.test.js`: Verifies strategic insight generation and conversational natural language question answering.
+  - `test_tazim_ai_finance.py`: Verifies headless Python audit and anomaly detection routines.
+
+---
+
 ## 💻 Quick Start & Running the Platform
 
 ### Option A: Launch Interactive Web Application
